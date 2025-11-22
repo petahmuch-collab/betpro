@@ -1,0 +1,35 @@
+# Node.js and React Project .gitignore
+
+# Node modules
+node_modules/
+
+# Build output
+build/
+build/production/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Static build outputs
+dist/
+
+# IDE and Editor folders
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.sublime-workspace
+*.sublime-project
